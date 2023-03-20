@@ -31,7 +31,7 @@ client = zeep.Client(wsdl=wsdl_url)
 
 # Set country code for Denmark
 # Just change to the country you want UK/US/SE
-country_code = "US"
+country_code = "SE"
 
 # Make the service call
 result = client.service.CountryIntPhoneCode(
